@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    android:orientation="vertical"
+    tools:context=".MenuActivity"
+    android:padding="40dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="30dp"
+        android:layout_marginTop="75dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="@mipmap/menu"
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Menu"
+            android:textColor="#FFF"
+            android:textColorHint="#999"
+            android:textSize="50sp"
+            android:paddingLeft="30dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnbangundatar1"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:text="Bangun Datar Persegi"
+        android:background="@drawable/style_button"
+        android:layout_gravity="center"
+        android:onClick="checkbangundatar1"
+        />
+
+    <Button
+        android:id="@+id/btnbangundatar2"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:text="Bangun Datar Persegi Panjang"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/style_button"
+        android:layout_gravity="center"
+        android:onClick="checkbangundatar2"
+        />
+
+    <Button
+        android:id="@+id/btnbangunruang"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/style_button"
+        android:text="Bangun Ruang Kubus"
+        android:onClick="checkbangunruang"
+        />
+
+    <Button
+        android:id="@+id/btnkeluar"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/style_button"
+        android:text="Keluar"
+        android:onClick="checkKeluar"
+        />
+
+</LinearLayout>
